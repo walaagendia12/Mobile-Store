@@ -1,0 +1,150 @@
+
+/* Search bar code */
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: Spartan;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ff6f00;
+}
+
+.search-box {
+  position: absolute;
+  top: 50%;
+  left: 84%;
+  display: flex;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  padding: 0px;
+  border-radius: 40px;
+  height: 40px;
+  background: #2f3640;
+}
+
+.search-box:hover .search-txt {
+  width: 240px;
+  padding: 0 6px;
+}
+
+.search-box:hover .search-btn {
+  background: #fff;
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+  color: #fff;
+  transition: 0.5s;
+  font-size: 1rem;
+  width: 0px;
+}
+
+.search-btn {
+  color: #ff6f00;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+/* Search bar code */
+
+
+.nav-header {
+	background-color: transparent;
+	position: fixed !important;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+}
+body{
+	overflow: auto !important;
+	position: unset !important;
+	overscroll-behavior-y: unset !important;
+}
+
+.navbar-brand{
+  color: #ff6b00;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.navbar-brand:hover, .navbar-brand.scroll{
+	color: #ffad01;
+}
+
+.cart-btn{
+	padding: 8px 20px;
+    font-size: 18px;
+	color: #ff6f00;
+	border-color: #ff6f00;
+	outline: none !important;
+}
+
+.cart-btn:focus{
+	box-shadow: none !important;
+}
+
+.cart-btn:hover{
+    color: white;
+	background: #ff6d00;
+}
+
+.cart-btn.scroll{
+	color: white;
+	border-color: white;
+}
+
+.cart-btn.scroll:hover{
+	color: #ff6d00;
+	background: white;
+}
+
+#banner{
+	background-image: url(../img/banner-bg.jpg);
+	height: 100vh;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+	position: relative;
+}
+
+.nav-item .nav-link{
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 8px 22px !important;
+}
+
+.navbar-nav{
+	margin-right: 20%;
+}
+.navbar-collapse{
+	justify-content: flex-end;
+}
+
+/* .nav-item .nav-link:hover{
+	border: 1px solid black;
+} */
+
+#mi-slider h4{
+	color: black;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.slider-tags a{
+	font-weight: 700;
+	text-decoration: none;
+}
+
